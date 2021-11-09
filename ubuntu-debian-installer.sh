@@ -7,6 +7,6 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge sta
 sudo rm microsoft.gpg
 ## Install
 sudo apt update
-sudo apt install microsoft-edge-stable
+sudo apt install microsoft-edge-stable -y
 
 echo Installed. Check your apps menu.
